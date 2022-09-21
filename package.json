@@ -1,7 +1,8 @@
 {
-  "name": "uni-preset-vue",
-  "version": "0.0.0",
+  "name": "uniapp-test",
+  "version": "0.0.1",
   "scripts": {
+    "update": "npx @dcloudio/uvm",
     "dev:app": "uni -p app",
     "dev:app-android": "uni -p app-android",
     "dev:app-ios": "uni -p app-ios",
@@ -49,11 +50,11 @@
     "@dcloudio/uni-mp-weixin": "3.0.0-alpha-3060320220917001",
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3060320220917001",
     "vue": "^3.2.39",
-    "vue-i18n": "^9.1.9",
+    "vue-i18n": "^9.2.2",
     "vuex": "^4.0.2"
   },
   "devDependencies": {
-    "@dcloudio/types": "^3.0.14",
+    "@dcloudio/types": "^3.0.15",
     "@dcloudio/uni-automator": "3.0.0-alpha-3060320220917001",
     "@dcloudio/uni-cli-shared": "3.0.0-alpha-3060320220917001",
     "@dcloudio/uni-stacktracey": "3.0.0-alpha-3060320220917001",
