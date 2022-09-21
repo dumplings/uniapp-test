@@ -10,6 +10,7 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 const title = ref('Hello')
+console.log('-------------', process.env.TEST, process.env.NODE_ENV);
 </script>
 
 <style>
